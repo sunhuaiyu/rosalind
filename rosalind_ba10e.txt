@@ -1,0 +1,9 @@
+0.314
+--------
+A	B	C	D	E
+--------
+BBAA-DCC-
+BDD-ADC-D
+BDDB-D---
+ADDA-D-CD
+BDC-ADCCB
