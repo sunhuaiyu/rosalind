@@ -1,0 +1,852 @@
+########################################
+# Program: matcher
+# Rundate: Tue  9 May 2017 23:40:50
+# Commandline: matcher
+#    -auto
+#    -stdout
+#    -asequence emboss_matcher-I20170509-234046-0575-1758940-pg.aupfile
+#    -bsequence emboss_matcher-I20170509-234046-0575-1758940-pg.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 11
+#    -gapextend 1
+#    -alternatives 1
+#    -aformat3 srspair
+#    -sprotein1
+#    -sprotein2
+# Align_format: srspair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Rosalind_2947
+# 2: Rosalind_5746
+# Matrix: EBLOSUM62
+# Gap_penalty: 11
+# Extend_penalty: 1
+#
+# Length: 10133
+# Identity:    5889/10133 (58.1%)
+# Similarity:  6185/10133 (61.0%)
+# Gaps:        2641/10133 (26.1%)
+# Score: 24719
+# 
+#
+#=======================================
+
+Rosalind_2947      5 YVMMWMRYQLKTHKMQWVCVENTMTM-----LYQQGVWFHEGQVLC----     45
+                     |:.|.||||.|||.|||||||||||.     ||||||||:|||||.    
+Rosalind_5746      1 YLEMCMRYQEKTHGMQWVCVENTMTRISVMKLYQQGVWFNEGQVLLSFIF     50
+
+Rosalind_2947     46 VLSWPGEALDEIPYMICPFMWERWGTCLLVAGFAMSMLCLQELWVHAF--     93
+                     ||||||||||||||||||||.||||||||||||||.||||||||||||  
+Rosalind_5746     51 VLSWPGEALDEIPYMICPFMVERWGTCLLVAGFAMCMLCLQELWVHAFQR    100
+
+Rosalind_2947     94 -CA-YPP--VLHRGFKYPKFCWLCRIKKSDIFNGITSEKWMTNRWMCEDL    139
+                      |. |||  .|||||||||||||||.||||||||||              
+Rosalind_5746    101 FCPWYPPDNELHRGFKYPKFCWLCRPKKSDIFNGIT--------------    136
+
+Rosalind_2947    140 MHLHDFDMAEQAQFQMEWVTVGPEQLAIGAEIWHMR-DSERHQYFHFTTA    188
+                      :||||||....      ||||||  |||||||||| :||.|||.|||..
+Rosalind_5746    137 -NLHDFDMCRIN------VTVGPE--AIGAEIWHMRMNSENHQYKHFTDV    177
+
+Rosalind_2947    189 DPEANVAFNTL----FVLMWGLYMPQ-------MGGEIMLWKVKIDHHWA    227
+                     ||||||||||:    .::..||||||       ||||||      |||.|
+Rosalind_5746    178 DPEANVAFNTMDQFPCIVYCGLYMPQKVCYTAHMGGEIM------DHHHA    221
+
+Rosalind_2947    228 DFKLGVHKRPISSVGCRC-KKFHNS--------ITHHG----ADNRYGYP    264
+                     |.|||||.|||......| |||||:        |||||    |||.||||
+Rosalind_5746    222 DRKLGVHCRPIDHNNRCCDKKFHNNAMHDMCVPITHHGDWRVADNPYGYP    271
+
+Rosalind_2947    265 WFAYDH----TQPWIIMMYHHVINGIWITYIRCFE-----FCMLARN---    302
+                     .|..:.    |||||||||.||   ||||||||||     .||||||   
+Rosalind_5746    272 PFCTNREQQATQPWIIMMYVHV---IWITYIRCFENGEWLICMLARNHLM    318
+
+Rosalind_2947    303 ----WCRHLGNAIQEADSGS-------CYSVWGHAMFYFWYCLCCP----    337
+                         |.||   ||||||.|.       |||||||||||||||||||    
+Rosalind_5746    319 QMEIWLRH---AIQEADMGDAQSRNEDCYSVWGHAMFYFWYCLCCPVGYL    365
+
+Rosalind_2947    338 --CWRARKW--SYPEDKCSGPHNNSPYFLRGVGLYMQFPDIEVALPFEFE    383
+                       .:..:.|  |.|....:. ..||||||||..|||||||||||||||||
+Rosalind_5746    366 LPAFVIQSWNVSIPLRSLNW-RTNSPYFLRGQILYMQFPDIEVALPFEFE    414
+
+Rosalind_2947    384 VRAHQWIETMHYICFQEYTFHNWDILHELKLEVGTLFAIRDCPLCMRLNF    433
+                     |||||||||           ...:|||||||.|.|  .:..|..|||||.
+Rosalind_5746    415 VRAHQWIET-----------DALEILHELKLYVVT--PLGGCYDCMRLNC    451
+
+Rosalind_2947    434 SYMDEVQ--------TFKPHQMSRDILKWRREG------AKMRCIASNCT    469
+                     ..||||.        ||||||.||||||||||.      ||||||||||.
+Rosalind_5746    452 WLMDEVMRESNCYLMTFKPHQDSRDILKWRREKNMRHSCAKMRCIASNCN    501
+
+Rosalind_2947    470 TDEMG---NKWDWAMMATMHEGKTWDMVEHCNKAKIFLHPKNHWRHSWWL    516
+                     ....|   ||||.||||||.||||||||||..|        |:|||||||
+Rosalind_5746    502 MGLGGKGDNKWDPAMMATMEEGKTWDMVEHTFK--------NYWRHSWWL    543
+
+Rosalind_2947    517 WNCTQGDNCHEAEFDN--YSELWAPMNAVAPVICAACQTEF-------PY    557
+                     |||||    .|.|||:  ||||||.|  ||||||||.|||:       ||
+Rosalind_5746    544 WNCTQ----REFEFDDWPYSELWALM--VAPVICAAVQTEWELMCWVVPY    587
+
+Rosalind_2947    558 HF-----VDKHKSHVKQMFNDFTWQRNWIHFEQI-----IWYCNTSIMI-    596
+                     ||     |||||.|||||||||||||||.||||.     |:||||.||. 
+Rosalind_5746    588 HFFPTAGVDKHKEHVKQMFNDFTWQRNWHHFEQENRPYKIYYCNTIIMYA    637
+
+Rosalind_2947    597 -----SGHSKR-GL---------HDRMWGT--HTNYFRHSWWDIMFDRYN    629
+                          |||||. |:         |.|||||  |.|.     |.|||||||
+Rosalind_5746    638 GPVWQSGHSKGYGIKIATNTGPNHARMWGTLHHDNL-----WKIMFDRYN    682
+
+Rosalind_2947    630 RWHHHTACTLTREYPFIWNIVPGNWIYMCRREYQYCSNKLINFPCDRKRA    679
+                     |||||..       ||||.                 .||||||||||||.
+Rosalind_5746    683 RWHHHMK-------PFIWG-----------------QNKLINFPCDRKRP    708
+
+Rosalind_2947    680 ------LKTAFLDMRFDYAVNTQL--DYP--------EHNRPNLLFIIET    713
+                           ||||||||||||..:...  ||.        :||||:|||||||
+Rosalind_5746    709 NVPEYNLKTAFLDMRFDYCHDWAPIPDYKTANMHHIAKHNRPSLLFIIET    758
+
+Rosalind_2947    714 CKWCIGYAPVGCHLPVWTKNN----PVCANVGHWEAN---ATLPRMHMQD    756
+                     .     .||||||.....:..    |||||.|||.|:   ||||||||||
+Rosalind_5746    759 V-----VAPVGCHRERQDQKLGLFIPVCANCGHWYAHRVVATLPRMHMQD    803
+
+Rosalind_2947    757 QQWTSIPWTVWYGRMVKHNTNFEWWWHMPDCYI------PGH------LC    794
+                     :||.||||.|||||||||||||.||||||||||      |..      ||
+Rosalind_5746    804 KQWMSIPWAVWYGRMVKHNTNFPWWWHMPDCYITIWQMVPRFGFGDCMLC    853
+
+Rosalind_2947    795 VKCW----MCVKSCH-------NYCICKFPIYCSL-----WYPY-KPTPG    827
+                     ||||    ..||||:       |..:|:...:||.     |||: |||| 
+Rosalind_5746    854 VKCWDWGLRMVKSCYPCTLDMDNKFMCRGVRWCSTIYGSNWYPWQKPTP-    902
+
+Rosalind_2947    828 EATVDEAYPGH-----NCSPMQFFPRECNC---HWWNCMAAFINKVSFMG    869
+                             ||.     ||||||||||||||   ..|.||.      ||||
+Rosalind_5746    903 --------PGWIGRTVNCSPMQFFPRECNCVVVSAWPCMH------SFMG    938
+
+Rosalind_2947    870 TSYDQTPAYYPRMVPIR----AYHEGFFFDCHLMCFLPHG-------KRV    908
+                     .|.||||||:|:||||.    .||.|||||||.||||.|.       |||
+Rosalind_5746    939 GSQDQTPAYFPQMVPIMWFCSIYHHGFFFDCHGMCFLDHNRHEDPEKKRV    988
+
+Rosalind_2947    909 SNYWMT----------GYTIFS----YAWVYFDIKKQQYLFQKDIQPGEG    944
+                     |||:..          .||||.    |||||||||||         ||||
+Rosalind_5746    989 SNYYEKDGHYVNRKEGSYTIFKPFPIYAWVYFDIKKQ---------PGEG   1029
+
+Rosalind_2947    945 RSKGNPYDQGHKKVLAYP-----------RVQGHQSVFPEWIPQEAIAGA    983
+                     ||||||||||||||:..|           ||.||.|||.|:||.      
+Rosalind_5746   1030 RSKGNPYDQGHKKVMDLPNQYPYHWQGHTRVWGHMSVFWEFIPM------   1073
+
+Rosalind_2947    984 CVAISQGAGGKMICEMYSGNYRCHGRELWLIYKIKKFVAGWDYLCLGPPI   1033
+                      ..:.:..||||||         |||||||:|.|||       |||||.|
+Rosalind_5746   1074 -AILMEQIGGKMIC---------HGRELWLLYTIKK-------LCLGPFI   1106
+
+Rosalind_2947   1034 VFMYPRGFCEEAEGKQHHRATRQFVT-SMCI------SHIAAAV------   1070
+                     ||||||||||         |||||:| ||||      .||||.|      
+Rosalind_5746   1107 VFMYPRGFCE---------ATRQFMTTSMCIMSACAEDHIAAEVIEAHVM   1147
+
+Rosalind_2947   1071 --AGERVGKGCLIHWEKKYV-RIRRPWMKYYCRWEYYIRAVRLIPLQADT   1117
+                       ||||.||||||||||.|| |....|::| |||.||  |...|...||.
+Rosalind_5746   1148 HLAGERTGKGCLIHWEKMYVERFLWCWIRY-CRWWYY--AYVAITPWADE   1194
+
+Rosalind_2947   1118 VGMCI--CRYQCFPY------NPECND--NSVSWY-----CF--IMDMPP   1150
+                     :|||:  |||||.|:      |||.|.  |.:|.:     |:  :.|:..
+Rosalind_5746   1195 IGMCVWHCRYQCRPWFEKMILNPENNHMINEISVFGMCAECWHRVCDLNC   1244
+
+Rosalind_2947   1151 MTKKHYVTYHCNIVPRRGFKQDYGVDSYEMNRGVWVCYGECSDEPESKDL   1200
+                     .....  |||||||||.|||||.|||||||||.||||||:|||||     
+Rosalind_5746   1245 FGFND--TYHCNIVPRAGFKQDLGVDSYEMNREVWVCYGKCSDEP-----   1287
+
+Rosalind_2947   1201 MWIWCRLGHYSGYVAKTGDTTDHYTPVRLRFGTPMQENRPWKW-------   1243
+                        |||||||||||||  ||||||....|||||||||||||||       
+Rosalind_5746   1288 ---WCRLGHYSGYVAK--DTTDHYVDGALRFGTPMQENRPWKWYTFKSVG   1332
+
+Rosalind_2947   1244 CSPTPHACEDKFICFHCPPSYYKKRYGHIPNLE-MADVWCTP-DRGEWFP   1291
+                     .|.|||||.|||||||||.|||||||    ||| |.:.:.:. .:|||||
+Rosalind_5746   1333 ISWTPHACCDKFICFHCPMSYYKKRY----NLEGMVNRYVSDCAKGEWFP   1378
+
+Rosalind_2947   1292 QWA-----DCQKVVTEVQLYFIPPVKYDGAECFNWAWCQFDKLWPHKWVI   1336
+                     |||     .|||||||||||||||||||||||||..:.|       ||||
+Rosalind_5746   1379 QWACTCCMTCQKVVTEVQLYFIPPVKYDGAECFNRCYWQ-------KWVI   1421
+
+Rosalind_2947   1337 VIWAFCGKGRMDSDPPIINTWRNWNQ-------VQQYEGNTIRTSHECPS   1379
+                     |||||||||||.|.|||||||||::|       .|.||||||||||| ||
+Rosalind_5746   1422 VIWAFCGKGRMCSAPPIINTWRNFDQWRTWMDQCQNYEGNTIRTSHE-PS   1470
+
+Rosalind_2947   1380 GHIHSK-----VMDG--CGCKPFQHGEAVTHVQQGEV-QRWDGTWNMPEL   1421
+                     |||.|.     ||||  ..|||||||||||||||||. ||||||||||||
+Rosalind_5746   1471 GHIFSTKREGMVMDGETNDCKPFQHGEAVTHVQQGEYDQRWDGTWNMPEL   1520
+
+Rosalind_2947   1422 PSFMLE---FPMITM-----VCMTATDRIDTGHSL---HLYLV--RRGED   1458
+                     ||||.|   .||||.     |||||||||||||||   .||.|  .||||
+Rosalind_5746   1521 PSFMSEPWDRPMITKYWCKSVCMTATDRIDTGHSLMISFLYDVGQMRGED   1570
+
+Rosalind_2947   1459 YEPRELDTLRQVPAKDCCNLITGTDCQNDQYEMMHQFVKPSMHGSHQWNT   1508
+                     |||.|||.|.|||||||||||||||.....|..|..       .|.....
+Rosalind_5746   1571 YEPNELDWLLQVPAKDCCNLITGTDNTKMVYHRMQD-------QSEMMAD   1613
+
+Rosalind_2947   1509 QHINPLLFVCENERHGTDVKMEDHCHCNWHLKYCPSLKGINQFLITTNTV   1558
+                     ...|||||||||||.|||||||.||||||         ||||||||||||
+Rosalind_5746   1614 SARNPLLFVCENERDGTDVKMEQHCHCNW---------GINQFLITTNTV   1654
+
+Rosalind_2947   1559 FW-CWC---NAEKPFWYQCIERCPGI------WQVFQMGTQHNFALMACW   1598
+                     || .|.   ..:||| |||||.|||.      |||||||||    |||||
+Rosalind_5746   1655 FWGAWIFFKGDDKPF-YQCIECCPGASCTCRDWQVFQMGTQ----LMACW   1699
+
+Rosalind_2947   1599 CNLWNRC-QIQRMIYKHNRVSGD-INAD-----MLMTWYELTDPEQYWPM   1641
+                     ||||||| :|:|||||.|||||| :|.:     |.|||.|........||
+Rosalind_5746   1700 CNLWNRCTKIRRMIYKTNRVSGDRMNENHWCNAMCMTWPEQYSTANLKPM   1749
+
+Rosalind_2947   1642 GHFELQ--------YYYNHPVHKVISYS------FECV--------CNSP   1669
+                     ||||||        :|||.||||||||.      ||||        ||||
+Rosalind_5746   1750 GHFELQRTRMYWHPWYYNWPVHKVISYGTFDCQQFECVYFFDNEPACNSP   1799
+
+Rosalind_2947   1670 QVLFPLYRNY---PPEVVPENYHKLVASNYRADFMIVQWDWHEAQWCIDS   1716
+                     |  |||.|||   ..|||| ||||||||:|||||        ||||||||
+Rosalind_5746   1800 Q--FPLMRNYNLGATEVVP-NYHKLVASHYRADF--------EAQWCIDS   1838
+
+Rosalind_2947   1717 HRPYGGKPTLESILPSDWWGNTFRGSHKRHWFNDRKIMPLEWLENQEFAA   1766
+                     |||||||||||||||||.||..   .|.||||||||||||||||   |||
+Rosalind_5746   1839 HRPYGGKPTLESILPSDIWGTI---EHWRHWFNDRKIMPLEWLE---FAA   1882
+
+Rosalind_2947   1767 KEMNKVENTQITKKISIYVMHLLCYKFEWDHLVETRWRQVAIYPKHCTFQ   1816
+                     |  ||||||||||||||||..||         |.||  |||||       
+Rosalind_5746   1883 K--NKVENTQITKKISIYVQKLL---------VPTR--QVAIY-------   1912
+
+Rosalind_2947   1817 DQNLKMMRM-HCELGH--GPPLTTNR---AICKDPE----WGNRCICCKM   1856
+                         ||||. ||||||  .|||.|||   .||||||    .||||||||.
+Rosalind_5746   1913 ----KMMREEHCELGHPRNPPLQTNRPDMVICKDPEEQKIMGNRCICCKR   1958
+
+Rosalind_2947   1857 IFENTEYSSPYYWANYMLMSDYEKQIAQQSTGKTYDCKWGVTK-------   1899
+                     ||       ||||||||||||||||||||||||||||||.||:       
+Rosalind_5746   1959 IF-------PYYWANYMLMSDYEKQIAQQSTGKTYDCKWWVTELALPVPG   2001
+
+Rosalind_2947   1900 GVLLWAQPAMTDQGPYGTDKEWVSHTTMPYGHHVKNWNEWGKDMFCPFPT   1949
+                     |||||||||||||||||.|||||||       |....:..||||||||.|
+Rosalind_5746   2002 GVLLWAQPAMTDQGPYGYDKEWVSH-------HKPIRDRKGKDMFCPFIT   2044
+
+Rosalind_2947   1950 QTFYPLQDHEHCCLGRVN----NMANE------PEWWWNWDPSFLTNPNF   1989
+                     |||.||||||||||||||    :|||.      |||| ||||||.|||||
+Rosalind_5746   2045 QTFQPLQDHEHCCLGRVNQTVYDMANGFLDYRGPEWW-NWDPSFRTNPNF   2093
+
+Rosalind_2947   1990 MDCHVRP-CSGCMK----NEFAKLRQMSLKGEQVWQSEC---GNKYGCNW   2031
+                     |||.||. ||.|.|    |||||||||.|||.:|.:..|   .|||||| 
+Rosalind_5746   2094 MDCLVRSNCSYCFKEHEKNEFAKLRQMQLKGHKVTKLSCMWCKNKYGCN-   2142
+
+Rosalind_2947   2032 IWPHQVVEHCF-KAHYHAKCRMTFCAMVMFEWKANKTHMLDRVIGQRSAK   2080
+                       |||||.:.. |||||||.                      ||||  ||
+Rosalind_5746   2143 --PHQVVLYYMPKAHYHAKV----------------------VIGQ--AK   2166
+
+Rosalind_2947   2081 AHWCECLEHRLAYRMAEKCGTCRIEQMQHLHMNNKDINFGWSPTVTQTHE   2130
+                     |||||||||||           ||    :|.::.:.|        |||||
+Rosalind_5746   2167 AHWCECLEHRL-----------RI----YLELSKQSI--------TQTHE   2193
+
+Rosalind_2947   2131 GY-DAISLHSNYPLVYSYVHQKKVDYARRCMRLSIVHCPYDIAMPGTELW   2179
+                     .. |||||.||||:|       .|||.||||||||||||||.|||.|.||
+Rosalind_5746   2194 DTNDAISLFSNYPMV-------SVDYGRRCMRLSIVHCPYDDAMPTTRLW   2236
+
+Rosalind_2947   2180 TELQRALT-CCFGWWYVFGVIQVFMYT--RRGFPMMQTCVLCYDASTVVS   2226
+                     ||||.||. ||||      ||||:...  |||.|||.||.||   ||||.
+Rosalind_5746   2237 TELQFALARCCFG------VIQVYQQPIWRRGGPMMNTCWLC---STVVK   2277
+
+Rosalind_2947   2227 GLQMEIKCQFRTYQTSWCAQ----HHMKLQNQCPLVRACWAIVMWNFAKI   2272
+                     |||||.|||||||||||||:    |||||||||||||||||.|.|:||| 
+Rosalind_5746   2278 GLQMENKCQFRTYQTSWCAEMWHNHHMKLQNQCPLVRACWAPVRWSFAK-   2326
+
+Rosalind_2947   2273 ATQPWDMNFP--AFACFQAHDDLACYNHMPACYPMHICKYTFFEMAAMNY   2320
+                          ||.||  ||||||||.|.|||.          |||||||||||.|
+Rosalind_5746   2327 -----DMCFPETAFACFQAHTDPACYT----------CKYTFFEMAAMWY   2361
+
+Rosalind_2947   2321 TSANNYRKYFYTVASEEDYQQQHEKDNTAPF-----YTYRTF-------V   2358
+                     |||                ::..|||||||.     ||||..       |
+Rosalind_5746   2362 TSA----------------RKSEEKDNTAPLDMEFTYTYRILWHRGMAQV   2395
+
+Rosalind_2947   2359 YKEKDIYRLGKGHREKNPYGSPQIFYTAYCPKNCNMLTFKSSEPCFVQED   2408
+                     |||||.| |||||.|||..|:      .||||||.|||||||||||||||
+Rosalind_5746   2396 YKEKDEY-LGKGHFEKNYTGN------MYCPKNCLMLTFKSSEPCFVQED   2438
+
+Rosalind_2947   2409 FQIDR-YYPLLHNGRAYLPNQSIQNN-CSAHDICMALDWDVIICLFDPYI   2456
+                     ||||. ||||  ||||||.||||||. ||||||||||.:|:         
+Rosalind_5746   2439 FQIDMFYYPL--NGRAYLENQSIQNALCSAHDICMALLFDI---------   2477
+
+Rosalind_2947   2457 PRICTIRKMEFYPHDDNGGPQREAALIVGDWDQGWGWNHWTDRKHHN---   2503
+                                     ||||||||||||||||||||||||||||:.|   
+Rosalind_5746   2478 ----------------NGGPQREAALIVGDWDQGWGWNHWTDRKNFNLGC   2511
+
+Rosalind_2947   2504 ---FPITMGWTLNSCHMWAEMKMAIGRHRWNYWWNLMDDEPQSFWGHHER   2550
+                        |||||||||||||||||.||||.||||||||||||||..        
+Rosalind_5746   2512 PCNFPITMGWTLNSCHMWAEGKMAIHRHRWNYWWNLMDDEFV--------   2553
+
+Rosalind_2947   2551 EFETSKQTCTWLCSYQDNEVSWMCDTKICDGILIVMILQSIIDFANIGKS   2600
+                     |.|||||||||||      ||||||.|.|||||||||    |||||||  
+Rosalind_5746   2554 EAETSKQTCTWLC------VSWMCDDKHCDGILIVMI----IDFANIG--   2591
+
+Rosalind_2947   2601 GIQHVVNFLTHCYN-PKPSENLS----WPSD------HRD------NIEL   2633
+                          ||||.:.|. |.|||.|.    ||:.      |||      ||||
+Rosalind_5746   2592 -----VNFLGYYYERPPPSEELGAVGRWPTMAHYHTVHRDFPVCFNNIEL   2636
+
+Rosalind_2947   2634 LQQWTMDHIDSPRDQAMMLKKGLNKVMPPM--TPYFELPWEIVWSPCEET   2681
+                     ||| .||.|||||||||||||||||||||.  |||||||||||.|||.||
+Rosalind_5746   2637 LQQ-DMDDIDSPRDQAMMLKKGLNKVMPPTDKTPYFELPWEIVVSPCMET   2685
+
+Rosalind_2947   2682 LYDYFDMVQIQIMGDGPDHMSCSYQVFCNRFFAHEYCW---TMWQCTFCA   2728
+                     ||.||||      ||      .:.||||||||||||..   |||||.||.
+Rosalind_5746   2686 LYTYFDM------GD------MNPQVFCNRFFAHEYITLQQTMWQCDFCH   2723
+
+Rosalind_2947   2729 WESCMVENSFKNECTPNMLQQLETPMKGSVYEGPGIEMYPFWMGMNNGGA   2778
+                     ||  |:.:..|||||||||||.|        ||||||||.:||||:|||.
+Rosalind_5746   2724 WE--MMFSCIKNECTPNMLQQYE--------EGPGIEMYTYWMGMSNGGP   2763
+
+Rosalind_2947   2779 ----AKSEIYWNVMSAFCIPKHCNDPYHLLQAQDCYQKGIQYKQSLVSRF   2824
+                         |||||||||||||||||||||||||...|:..    .|||||||||
+Rosalind_5746   2764 CGGLAKSEIYWNVMSAFCIPKHCNDPYHLQGTQESQ----HYKQSLVSRF   2809
+
+Rosalind_2947   2825 SGGT-WCFSIESKVAKAPQQ----IPYIISFPNVVYARVQPSQKEQVTTI   2869
+                     |||| ||||||||||:|||:    :..|.:..|.  ||||.|||||||||
+Rosalind_5746   2810 SGGTVWCFSIESKVAEAPQKSGVAVEDICAQRNC--ARVQASQKEQVTTI   2857
+
+Rosalind_2947   2870 MCRA---KMNVDRLMGWRIVWFMGLEARV---VYFILVQYKGWTHHNLAG   2913
+                     |||.   |||||||||||||||||||.||   .|||||   |||||||||
+Rosalind_5746   2858 MCRCWYVKMNVDRLMGWRIVWFMGLEIRVQMKTYFILV---GWTHHNLAG   2904
+
+Rosalind_2947   2914 WNYCHSP---TIGPGN--SRVLYNCNALTTC------EQQHWQAKAVDPW   2952
+                     ||||||.   ||.|||  .|||||||.||||      :|||||||..||.
+Rosalind_5746   2905 WNYCHSLAEITIDPGNPHERVLYNCNTLTTCHGYRAMQQQHWQAKLCDPC   2954
+
+Rosalind_2947   2953 -----NIEMEAKGV-------IEDRAKSYQVIVMRHEKIFAVTIYSHPDL   2990
+                          ||||||||.       ||| |:|||||.||||||||   ||||||
+Rosalind_5746   2955 YFGYCNIEMEAKGSNAMTIPHIED-AESYQVIKMRHEKIFA---YSHPDL   3000
+
+Rosalind_2947   2991 FSHATIMRTGGNMYIQCVQIWDCMKQYKEQEGPGETQSWN-----EEHVD   3035
+                       ||.     ||.|||   ||           .|||:...     .||||
+Rosalind_5746   3001 --HAW-----GNNYIQ---IW-----------VGETEFCEISIAVREHVD   3029
+
+Rosalind_2947   3036 TC-GSWYVGPHVFSPDRLECQRPMCAWHPKLHNAEDLSIHLDEYEMFKHW   3084
+                     |. |||||.|..            |||.||||||||||||||||:|.   
+Rosalind_5746   3030 TADGSWYVSPMD------------CAWVPKLHNAEDLSIHLDEYQMG---   3064
+
+Rosalind_2947   3085 IQVWRVSIPFNDWVSA-YDQEDEPVS----GMVQWLCIDINENSFDMI--   3127
+                        :..|||||||||. |||||||..    |||.|||||||.|||||.  
+Rosalind_5746   3065 ---FCESIPFNDWVSCPYDQEDEPWELLPMGMVDWLCIDINNNSFDMAEA   3111
+
+Rosalind_2947   3128 ---VIVMWQAVMGNDR-VVWGKQMVMWPRAYAVPRKISVIFDCSADWFVI   3173
+                        |.||||||||||. |||||||||||||||||||||.||.||||||||
+Rosalind_5746   3112 GTQVGVMWQAVMGNDHLVVWGKQMVMWPRAYAVPRKISHIFWCSADWFVI   3161
+
+Rosalind_2947   3174 THKSELAWDHSSQAWCKMVC--QHMYTPGFAYCICCFHEWP---NTFNNF   3218
+                     |...:..|    |||.|...  |||||.     |||||||.   ||||..
+Rosalind_5746   3162 TFLRKTQW----QAWRKHHTNQQHMYTN-----ICCFHEWVQWNNTFNLH   3202
+
+Rosalind_2947   3219 SLL--HSVFIYIC-------LEWFSDTAECSTGPYPN---MPCK-RKGQ-   3254
+                     |:.  ||:....|       |||||  ||||||.||:   |||| |.|: 
+Rosalind_5746   3203 SMRANHSIIYIACEVCIESTLEWFS--AECSTGQYPHVRQMPCKWRFGKG   3250
+
+Rosalind_2947   3255 -------RQTGVDHF---AYDKKIRFQMYTYVMIRLRH------APKLAM   3288
+                            ..|||||.   |||||        ||||||:      ||||||
+Rosalind_5746   3251 YPCSHRNMMTGVDHRIYKAYDKK--------VMIRLRNYDACPFAPKLAM   3292
+
+Rosalind_2947   3289 FFKKRPIQRLWFIRMMAHPAFIRLKDRTNKTLYYECLAEAQCIE---GDI   3335
+                     ||.||||||.|::.:...........||.|||||||||||||||   |||
+Rosalind_5746   3293 FFCKRPIQRQWYVMIHCVKKTPNWMKRTMKTLYYECLAEAQCIECCGGDI   3342
+
+Rosalind_2947   3336 K-----FIQLDHHFEPQ-------PHAYNTVWPHIIWSMQFKCLAIPKQH   3373
+                     .     |||||||||||       |||||||||||||||||||||    .
+Rosalind_5746   3343 DRYDLCFIQLDHHFEPQHDFEVTSPHAYNTVWPHIIWSMQFKCLA----W   3388
+
+Rosalind_2947   3374 FAAFPINHYMSMLCSEDMGDHFQDRMCIVWMVRWQTKTQAEQQFSHNMSC   3423
+                     |||||||.|||||||.......||..||||||||||.|| .|..|     
+Rosalind_5746   3389 FAAFPINFYMSMLCSTAKPFGHQDMGCIVWMVRWQTLTQ-NQDIS-----   3432
+
+Rosalind_2947   3424 KVARAHMMRSRYQDDWFTSTIYWCNFQFFWVVCQQHCT-------SCGEF   3466
+                                  |.|...  ||||||.:|||||  ||       :|||.
+Rosalind_5746   3433 -------------DKWHNW--YWCNFQQYWVVCQ--CTQCKSQLITCGEC   3465
+
+Rosalind_2947   3467 KTLYMAFHMGEPYIYAKCNHSDSDLMSETLMEVHAMHFIIYYLDNQAAAL   3516
+                     ||||||        ||.|||||||||||||||||||.||||||.|||||.
+Rosalind_5746   3466 KTLYMA--------YAICNHSDSDLMSETLMEVHAMAFIIYYLTNQAAAW   3507
+
+Rosalind_2947   3517 VYAMEEMLYFEPANAKKMHQWCKEQDINLGCRSDVTP-KVHFCLMPYNEY   3565
+                     |:|:||||:..           ||||.    ||.||| :|||||||||||
+Rosalind_5746   3508 VFAVEEMLHVT-----------KEQDY----RSWVTPPRVHFCLMPYNEY   3542
+
+Rosalind_2947   3566 T-------EDFMWYRPFHYVMCHSPRNINWKDRKFGTINVGWYSHWS---   3605
+                     .       ||||||||||:.:.:...:           ||||||||.   
+Rosalind_5746   3543 DKYPANSPEDFMWYRPFHWPIPYQHHD-----------NVGWYSHWQLIQ   3581
+
+Rosalind_2947   3606 ----RSAWSVL-----NGSMQDGVMKDQCPVLV-QPIRAMKRLNGMA--T   3643
+                         |||||||     ..||||||||||||||. |||||||:|||.:  :
+Rosalind_5746   3582 VKMCRSAWSVLIRCFCAHSMQDGVMKDQCPVLHRQPIRAMKQLNGHSCIS   3631
+
+Rosalind_2947   3644 GLKFVARPTNCANQRNCNQGS-----DQTNGAMTNDPRGH------DNWL   3682
+                     ....|..|||    |||||.:     :.|||||||||..|      .|||
+Rosalind_5746   3632 HSAMVIAPTN----RNCNQCAGKSDCNHTNGAMTNDPFIHVKETRNSNWL   3677
+
+Rosalind_2947   3683 DNTRWGGGQIMVTCKVICY-------FFTHYSYN-------QQCTNCIIE   3718
+                     |||||..||||||||||||       .||.||||       |||||||||
+Rosalind_5746   3678 DNTRWENGQIMVTCKVICYPGKMMTSTFTAYSYNLCEENHYQQCTNCIIE   3727
+
+Rosalind_2947   3719 ETCFYYGFHSAVMSGFEKTFWSRCEWSIAAFCISAINRIEY-MRHGVTTG   3767
+                     .|||||||.|        ||||...|   ..|||||||.|| .||||||.
+Rosalind_5746   3728 STCFYYGFVS--------TFWSDAAW---ISCISAINRWEYEFRHGVTTI   3766
+
+Rosalind_2947   3768 WCVIYL-----PNYKCCMYTTLTHYFMNRWGYQ----YSQYKRNVISEIQ   3808
+                     ||||||     ||||||      |||||||||.    ||||.|.      
+Rosalind_5746   3767 WCVIYLYWEKFPNYKCC------HYFMNRWGYYCQMGYSQYWRE------   3804
+
+Rosalind_2947   3809 MNIPFPKGMS--DHEAGRMNVKKIPVCIHLYYGTCSPEVSTCSDTAMEGI   3856
+                      .|||||||:  ...|||         |||||||.|||||||||||||||
+Rosalind_5746   3805 -RIPFPKGMNLLGFCAGR---------IHLYYGTPSPEVSTCSDTAMEGI   3844
+
+Rosalind_2947   3857 SWTFHRFMSKIQRVF-----KYKFPTMKWFAKEWAYRSFGSCEWWVEVYA   3901
+                     |||||||.|.|||||     .:|||||||||||||:||||||||||||||
+Rosalind_5746   3845 SWTFHRFRSGIQRVFLWFLISWKFPTMKWFAKEWAWRSFGSCEWWVEVYA   3894
+
+Rosalind_2947   3902 MAPYLGWTNEP------KYPMGYFSEYQYIGCPEN----PL--------A   3933
+                     ||.|.||||||      ||||.|||.|||||||:.    |:        |
+Rosalind_5746   3895 MAEYGGWTNEPDDIWQDKYPMLYFSSYQYIGCPDEWERCPMGNLNCAHVA   3944
+
+Rosalind_2947   3934 VKNMNQQCWSTPMISMNMSTQQGSNNYTVKCLNMKFQSSNSNYLPG-LYS   3982
+                     |||||||     ||||||.||       ||||||.||||||||... ::.
+Rosalind_5746   3945 VKNMNQQ-----MISMNMGTQ-------VKCLNMAFQSSNSNYETWQMFW   3982
+
+Rosalind_2947   3983 EVLWERN-YNKARTNIQTHRWGFPQQSAKDDDGFFYISDRIHYWVANIWS   4031
+                     ..||:.. :...|....||||.|||||||||..|:   |||||||||||.
+Rosalind_5746   3983 CFLWDTLVFKHTRWYTNTHRWFFPQQSAKDDHVFW---DRIHYWVANIWY   4029
+
+Rosalind_2947   4032 YLWPY----SHETIMMKSPNYARMWERQ--------QYGQGDSK------   4063
+                     ||||.    |||||.|||.||||.|...        ||.||||.      
+Rosalind_5746   4030 YLWPICSFKSHETIEMKSKNYARPWHPLVDHKRPIGQYFQGDSSLHMIAC   4079
+
+Rosalind_2947   4064 PPKDWDGNH--GDCLSPKAMTNRAHILGDCARTERSDQLLHYPVVEVSLL   4111
+                     ||||||.|.  |||||.....::...|||||||      |||||..||||
+Rosalind_5746   4080 PPKDWDNNDWGGDCLSRIHSCHKEIALGDCART------LHYPVWMVSLL   4123
+
+Rosalind_2947   4112 NDLYVPYHPRRSWGVVEYAEHEHIGHQEFNTWCIL------PGDHWCLET   4155
+                     |||||||. :..|     |||         ||||.      ||.||||||
+Rosalind_5746   4124 NDLYVPYF-QEMW-----AEH---------TWCIFYCMAATPGWHWCLET   4158
+
+Rosalind_2947   4156 FGFMPIDRDEAPSDNWQFTFF----MDFLKPC--------------IPWG   4187
+                     ||||||||||||||||.|||:    ||.||.|              .|||
+Rosalind_5746   4159 FGFMPIDRDEAPSDNWSFTFWITHPMDMLKNCDACQLPKCSTSKDLFPWG   4208
+
+Rosalind_2947   4188 IMMARYWDYAFWGI-------TLNQITNTCPIPWVVFRAWDQMCRMDHTP   4230
+                     |||||||||||||.       |||.||.|||||..:         ||.||
+Rosalind_5746   4209 IMMARYWDYAFWGKAIDLYNETLNFITCTCPIPEYM---------MDQTP   4249
+
+Rosalind_2947   4231 RQINRLNQLHSDNRMTINECH-------TDGYM--------DQYAARNVM   4265
+                     ||.|.|.||       ||||.       ||||.        |||..... 
+Rosalind_5746   4250 RQRNGLIQL-------INECVGFERGNITDGYQSGGKCQNQDQYRRERA-   4291
+
+Rosalind_2947   4266 ERIYMQWDDYAVQCMSQVRSAYKPWRDMCHPTKILPPPMDM--EGEKGT-   4312
+                       ||||||||||||||||||.|.||.|||||      ||||  |||||. 
+Rosalind_5746   4292 --IYMQWDDYAVQCMSQVRSQYCPWEDMCHP------PMDMRKEGEKGAG   4333
+
+Rosalind_2947   4313 ------EMIKEELMPIWFRPAYVCQLCAVMEEMNYQQNLPNKRHGMWRDD   4356
+                           ||..||||||  |||||||||||||||||||:|.||||.|.|||
+Rosalind_5746   4334 QLLDWEEMCMEELMPI--RPAYVCQLCAVMEEMNYQQHLFNKRHYMQRDD   4381
+
+Rosalind_2947   4357 RCKLEVEAHFCTRMHFMEADDKVVFIWHGSAELAWLGSRDGMLLLTHKDK   4406
+                     ||:       |.:    |||||||||||||||||   ..|||||||||||
+Rosalind_5746   4382 RCR-------CAK----EADDKVVFIWHGSAELA---RNDGMLLLTHKDK   4417
+
+Rosalind_2947   4407 PCSV----GKHYDE----RPRQLWWMGWMPNLSAIWNTHATANNAPDRIG   4448
+                     ||||    .|||||    .||||||||||||||||||      |||||||
+Rosalind_5746   4418 PCSVQDKNSKHYDEALNWEPRQLWWMGWMPNLSAIWN------NAPDRIG   4461
+
+Rosalind_2947   4449 AIRRAWKWTCNFSLNQIHMLFKNMYIHEHAVIMFIFETLVMAHDGFEEAV   4498
+                     |||.|.|  |.:    ||.:|:   :.|...:    :||||||.||.|||
+Rosalind_5746   4462 AIRMALK--CMY----IHPIFQ---MTEGPCM----KTLVMAHQGFVEAV   4498
+
+Rosalind_2947   4499 CSAWNIREFSDWSVYYFM---QQRVPCRFLN--------CFVTHQNIVHH   4537
+                     |||         |||||.   |||||||..|        ||||||||||.
+Rosalind_5746   4499 CSA---------SVYYFPTTHQQRVPCRMANYQFMWIYNCFVTHQNIVHS   4539
+
+Rosalind_2947   4538 MP--GRHPCISYTQLEHTYRICCCHSENNPRSRD-------SYNWF----   4574
+                     ||  ||||         .||||||||:||.||||       .||||    
+Rosalind_5746   4540 MPHYGRHP---------EYRICCCHSDNNFRSRDIEMLLWTEYNWFGPYR   4580
+
+Rosalind_2947   4575 -----FPDTHRREMNTVPMWVKFDGNIPNPSFCEGVWGTCIHRYTVMEPS   4619
+                          |...||||||.|..|||||||||||||||||||||||||||.|||
+Rosalind_5746   4581 MIDWKFTIIHRREMNAVGFWVKFDGNIPNPSFCEGVWGTCIHRYTVYEPS   4630
+
+Rosalind_2947   4620 A--NLTGGKSCPCSRYMFFGWVYNQPGLWMRTV----RRVKRLCWDFPMS   4663
+                     :  ||||||||||||.||          ||||.    ||||||||.    
+Rosalind_5746   4631 STWNLTGGKSCPCSRRMF----------WMRTKANISRRVKRLCWT----   4666
+
+Rosalind_2947   4664 YRPMKLCDALDKWKTEVVAHMNSQFMVTNFGDNQNT---FHFVGLVKC--   4708
+                       |||.||||||        ||    |||||||.||   |||.|||||  
+Rosalind_5746   4667 --PMKYCDALDK--------MN----VTNFGDNYNTDGEFHFSGLVKCPH   4702
+
+Rosalind_2947   4709 ------IPCEFFY-----YTTTLNDQ------CFEWLSGDIKL-QPREGR   4740
+                           .|||.||     :...|...      |.||||||.:: .|  ||
+Rosalind_5746   4703 KCEQDTCPCEGFYRFKDGWDNILTPMKLGQKYCHEWLSGDDEVFSP--GR   4750
+
+Rosalind_2947   4741 GEWNHRMHDIYPKSQS--SPQKSCNGNWNRQKDGRQPDYKNQNNHAQFLW   4788
+                     ||....||||||||||  .|||| .|:...:::..||  |||||||||||
+Rosalind_5746   4751 GEQLPAMHDIYPKSQSVECPQKS-QGDLYSEENNNQP--KNQNNHAQFLW   4797
+
+Rosalind_2947   4789 LNPDSWRVFFKPMAWGWWDRQLYTYNAHWRAANHMPRRNCWQGCNCWPHK   4838
+                     ||||||||.|||||||||||||.|| |||||:       ||||.||||||
+Rosalind_5746   4798 LNPDSWRVIFKPMAWGWWDRQLATY-AHWRAS-------CWQGANCWPHK   4839
+
+Rosalind_2947   4839 VARWTDGR----PRYWFTQNSPCKGVIIG-------DFYIMYLWY---CT   4874
+                     .||....|    ..||||.   ||||.||       .||.|||||   .|
+Rosalind_5746   4840 CARIDQARYAPWAPYWFTT---CKGVPIGLYYHHNPQFYNMYLWYNPGIT   4886
+
+Rosalind_2947   4875 YNLAQYWDHRNGSLWTIWQEIIQLKWLVNWFVEY-----IDHEQRLQNRC   4919
+                     :.  .....|||||||||||||||||||||||||     |||||||||||
+Rosalind_5746   4887 HR--NKGADRNGSLWTIWQEIIQLKWLVNWFVEYSSCSWIDHEQRLQNRC   4934
+
+Rosalind_2947   4920 EEQT---MKNQIAELYMEPQLFMYMALWQQAII-------VCCEVLQALW   4959
+                     :...   ||||.||||.||||.||||||||.|:       ||||||||||
+Rosalind_5746   4935 QAANSFIMKNQEAELYDEPQLIMYMALWQQEIVCGVPGNGVCCEVLQALW   4984
+
+Rosalind_2947   4960 KQNKQYRSLPILCSLGGWGAKQWIVYFCSEPYEGEMF-AEFFWKFPKICM   5008
+                     |||||||||||||.||.:||.|||||||||.:...:| ....|: |||| 
+Rosalind_5746   4985 KQNKQYRSLPILCWLGIYGAFQWIVYFCSEMFADPIFWVHAVWQ-PKIC-   5032
+
+Rosalind_2947   5009 CTNLN-AQKRNAYMTHKGHNAHKIYCIYDLEPGYNID-LNPGYPCGEQNH   5056
+                       ||. |||||||||||||..:||        .|.:| .||.||.|||||
+Rosalind_5746   5033 --NLPMAQKRNAYMTHKGHIGYKI--------DYRVDERNPEYPNGEQNH   5072
+
+Rosalind_2947   5057 R------FCRGIKTRW-----WMLQRDKSPGNNAFWFKIQWPVVEKLYWL   5095
+                     :      ||||.|||.     |.|||||.|||||||:|||||||||||||
+Rosalind_5746   5073 KMCFYVFFCRGEKTRINRKVKWDLQRDKQPGNNAFWYKIQWPVVEKLYWL   5122
+
+Rosalind_2947   5096 DMGRMRIPYVCGPNWLNTVRYRYPQQVLRGVCKNWVHHLQMRHCQWCTDI   5145
+                     |||||||||.|.|||||||.|.||||.:....:::.|||||||.|||| :
+Rosalind_5746   5123 DMGRMRIPYSCSPNWLNTVYYYYPQQKINNFGQHFYHHLQMRHKQWCT-L   5171
+
+Rosalind_2947   5146 FRSMDLF----IGYFD--------NDHWAQNTGLCLDMNCW-FPFKHGKR   5182
+                     ....||.    :|.||        ||.|...|..| .|||. ||||:||.
+Rosalind_5746   5172 GHEFDLIHNSMVGIFDYKDHDKAQNDGWRCLTKAC-QMNCAAFPFKNGKA   5220
+
+Rosalind_2947   5183 DSTNEMMDHQAIDNKFIWNFQKQYYGAKNNDNFMRM--LDCGYMLMDHYH   5230
+                     ...:              |..|||||||||.::.|.  ||||||||||||
+Rosalind_5746   5221 QGND--------------NLSKQYYGAKNNQSWWRETDLDCGYMLMDHYH   5256
+
+Rosalind_2947   5231 CIQHTWMPFCDKYDKGSYCDFLDMLWP--LPDYPGQHFEKRSLGQFYPHQ   5278
+                     |||||||||||||||||     |||||  ...|||||   |||.||.|||
+Rosalind_5746   5257 CIQHTWMPFCDKYDKGS-----DMLWPYIFHCYPGQH---RSLPQFVPHQ   5298
+
+Rosalind_2947   5279 CKHHITHPFFVETEAG-----FVQHCKM------NHN--------IGKFK   5309
+                     ||  ||||||||||||     ..:.|.|      .||        |...|
+Rosalind_5746   5299 CK--ITHPFFVETEAGDNYYACTKQCGMVFRDKERHNGSSRNIVSIDCQK   5346
+
+Rosalind_2947   5310 YYKMEAHLQTMIWSFWLGWKQRCSLR-----WQPLSGLPRIFDQLTDHES   5354
+                     |||||||:||||||||   .:||.::     ||         .||||.||
+Rosalind_5746   5347 YYKMEAHIQTMIWSFW---GRRCFIKLTAYQWQ---------HQLTDPES   5384
+
+Rosalind_2947   5355 CHENQRIMYHFNHG-WYMGCDP---------------NRHPPGVHTELTQ   5388
+                     |||.|  ||:|||. |:..|.|               ||||||||||.|.
+Rosalind_5746   5385 CHEIQ--MYYFNHANWHQPCGPEGEYMPDYYEDPRCINRHPPGVHTERTC   5432
+
+Rosalind_2947   5389 ELCM---WCGPLRPPVEEMMLNCSSPFMRVTDRALEIIMFPLPNDSC---   5432
+                     .:.|   ||||||||||||||||||||||..  ..|....|. |||.   
+Rosalind_5746   5433 VMWMPQFWCGPLRPPVEEMMLNCSSPFMRYA--LCETGTQPA-NDSIKHG   5479
+
+Rosalind_2947   5433 ---GACKDQYPWQADERAKGSRCWPNIAWLPWDQQHVH--------MGHG   5471
+                        ||||...          ..| |...||||||||||        :|||
+Rosalind_5746   5480 SLLGACKFAV----------YNC-PAKGWLPWDQQHVHGSVIFFTEIGHG   5518
+
+Rosalind_2947   5472 FYLVGVIDFMMLRFMHALLDHQDQQRDP-----YHED------KCSPRYR   5510
+                     |||||         |||||..|:..:|.     |||.      |||||  
+Rosalind_5746   5519 FYLVG---------MHALLKIQNGMQDQMRWCGYHERCLAWLLKCSPR--   5557
+
+Rosalind_2947   5511 MPKISCQYIQYLEK---WIRQSKNQLSRWVIQNKSCMKVWKADWCAKQKT   5557
+                       ::.|||||||:|   |||||||||||        |.||||:..|    
+Rosalind_5746   5558 --RMKCQYIQYLDKGCHWIRQSKNQLSR--------MFVWKANAFA----   5593
+
+Rosalind_2947   5558 WFSDYSKIFD----FPGTTCMWHEMNHSTGLHETSNFGDMTHQMFEQEYG   5603
+                      ||.||||.|    ||||||||||||        |||.|||||.|     
+Rosalind_5746   5594 -FSGYSKIQDWCKDFPGTTCMWHEMN--------SNFRDMTHQQF-----   5629
+
+Rosalind_2947   5604 YQVERMFNEQV--YQSPAGRRMQ-TAHHMSCYKAMIVQLCFNEPAYDAAQ   5650
+                      |||||||.||  :.....|||: ||||||||.|||||||||||||  |:
+Rosalind_5746   5630 -QVERMFNIQVVWWMPELWRRMRVTAHHMSCYLAMIVQLCFNEPAY--AR   5676
+
+Rosalind_2947   5651 LVADRTWNGIKGNWCDDLELVLPFVMIHSARPEQRMGVGTYR------DY   5694
+                     |||||||||||||||||||||||||.||||||||||||..||      .|
+Rosalind_5746   5677 LVADRTWNGIKGNWCDDLELVLPFVQIHSARPEQRMGVLFYRCCMASRHY   5726
+
+Rosalind_2947   5695 QMEN------EPTIAFVWMLFCTAL-ACGMEGWDCIVPNMEQGHSIPMPY   5737
+                     .:.|      :|: ..||.|...|. |||||||:||||||||||||||||
+Rosalind_5746   5727 HIGNLNMPWNKPS-PEVWDLRTAAHHACGMEGWNCIVPNMEQGHSIPMPY   5775
+
+Rosalind_2947   5738 EKQMVEYKSLADPNGQLNKAQWHHLQQIAWYLRAGG----LMRHHHQ---   5780
+                     |.|.||||||||.||||||||||.||||||||||||    :||||:.   
+Rosalind_5746   5776 EIQTVEYKSLADQNGQLNKAQWHKLQQIAWYLRAGGPWAEMMRHHYISTE   5825
+
+Rosalind_2947   5781 ----------KKWMREDRM----RKCCHWDNMDSCPNRFAVRSSCWFANP   5816
+                               |||||.|||    |.||..||....   |||||.| |||.
+Rosalind_5746   5826 HSPYNLLNYIKKWMRTDRMGGGVRCCCMGDNESMI---FAVRSGC-FANM   5871
+
+Rosalind_2947   5817 -----NNFGA-------CAGMQPTHSRQRVDWCMKVSMKARWVKYSDHKN   5854
+                          |.||.       ..||||||||:        |..|||||  ||:|
+Rosalind_5746   5872 WRILLNKFGPHNIQRTHWEGMQPTHSRE--------SQTARWVK--DHRN   5911
+
+Rosalind_2947   5855 YMMDQSSRPYTFMMYAQQINDNTWKFYPK------CMNDAEMKERPQAFQ   5898
+                     ||||||:||  |||||.|.|||||||||:      |||||||.|||||.|
+Rosalind_5746   5912 YMMDQSNRP--FMMYAPQANDNTWKFYPRYDIFKCCMNDAEMTERPQASQ   5959
+
+Rosalind_2947   5899 EQDIWFPYP-----DNQRIEETAQTIALGEKQAHACDPFQGVIIGPVCAT   5943
+                     |   ||||.     |||||||.||||||||.||||||||||||.||||||
+Rosalind_5746   5960 E---WFPYMPIVILDNQRIEERAQTIALGEWQAHACDPFQGVISGPVCAT   6006
+
+Rosalind_2947   5944 FVMHEMILKAGGNNAAKYWLAHHQDERTWFLVAVQIHRCTIAVPIGQHNL   5993
+                     :         ||||||||||||.:.|..  .||||||||||....|||||
+Rosalind_5746   6007 W---------GGNNAAKYWLAHERHETE--AVAVQIHRCTITATPGQHNL   6045
+
+Rosalind_2947   5994 YKDPIGASE-----TPMYKMRLYI------FVIKTNDEWTRFWIEEACMK   6032
+                     ||||||..:     ||||||||||      ||||||||||||||.|||||
+Rosalind_5746   6046 YKDPIGNYKRDVFPTPMYKMRLYIRCDGGPFVIKTNDEWTRFWITEACMK   6095
+
+Rosalind_2947   6033 PENWNCVCQFWKRT--HPDD----NYFAHSKIGKMEPSIENVHLNYELPM   6076
+                     |||||||||||||.  :.||    .|||.|||||.||          |||
+Rosalind_5746   6096 PENWNCVCQFWKRNAFYNDDWKHTPYFAWSKIGKDEP----------LPM   6135
+
+Rosalind_2947   6077 DKYAEMWTNEDEFTWCMSVKITRANMWRERVIIMMLNEDTKLLWFCWICA   6126
+                     ||||||||||||.||||.||||||||||.||.||.|.|||||| .|||||
+Rosalind_5746   6136 DKYAEMWTNEDEMTWCMMVKITRANMWRSRVDIMRLPEDTKLL-DCWICA   6184
+
+Rosalind_2947   6127 DKNNWMWTAGTEDNSEYKEQYNDYRPQQERLDTIPNI---PIPPHCFNDP   6173
+                     .||||  ||     .|||||||| |.||.....|.:|   ||||||||||
+Rosalind_5746   6185 FKNNW--TA-----YEYKEQYND-RQQQIECCYISDIGLDPIPPHCFNDP   6226
+
+Rosalind_2947   6174 AHLHWCGCHDSQVLNTYPRQQKVFHLDFEWGHR-------QTRFGEVC-G   6215
+                     ||||||| :|:...:|......|||||||||||       .|||.||| .
+Rosalind_5746   6227 AHLHWCG-NDTLAKDTPKVLNTVFHLDFEWGHRVQATMLDNTRFKEVCVA   6275
+
+Rosalind_2947   6216 MKEDTERH--KSMMWAENYLAKMYDLTQNPLH-------NQWMGEMCKDM   6256
+                     |||||.|:  ||||||  |||||||||||.|.       |||||||||||
+Rosalind_5746   6276 MKEDTYRYPPKSMMWA--YLAKMYDLTQNELWFSTNNTVNQWMGEMCKDM   6323
+
+Rosalind_2947   6257 YTQTDGSK--------MCTEESMGANCACPHSDSPATKVPFWWMEYSLLF   6298
+                     ||||||||        .|||      ||||||.....:  .|||||||||
+Rosalind_5746   6324 YTQTDGSKEGYSNRATFCTE------CACPHSRGGHAQ--NWWMEYSLLF   6365
+
+Rosalind_2947   6299 CSWCVTGPHNHRHYILEASICYELTTGYCNTCRQNHVVRKLMDMWIDSVM   6348
+                     |.||||.|    .::.||||..||||||||||:|||.||  ...|     
+Rosalind_5746   6366 CDWCVTDP----SHVFEASIVDELTTGYCNTCQQNHYVR--TKEW-----   6404
+
+Rosalind_2947   6349 NFSIFCMQAQNDMINLHSMQEHTGFCWDVIPTGSTYPDSRIISGPPWWDY   6398
+                      |||||||||.||||||||.              .|||||||||||||||
+Rosalind_5746   6405 -FSIFCMQAQMDMINLHSMM--------------LYPDSRIISGPPWWDY   6439
+
+Rosalind_2947   6399 TLTPQYDRRFNYVTHPHFDDPIHCEEMIMDKCDFM--FTVPASFRRVEIT   6446
+                     .:.....|       .||||||||.||||..|.:.  || |.:|      
+Rosalind_5746   6440 FVVDVSSR-------GHFDDPIHCWEMIMPACTWKPDFT-PQNF------   6475
+
+Rosalind_2947   6447 TESG----CYEYSTICDWTNGTTLMWHFKQVLSLIFWQNSAGVEENNVYM   6492
+                     |||.    ||||||||||.|||||.||||||||||||||        |.:
+Rosalind_5746   6476 TESSQWHMCYEYSTICDWLNGTTLPWHFKQVLSLIFWQN--------VEL   6517
+
+Rosalind_2947   6493 KSRLICLQCWCIKFGWWVMEV---FGRVTLRWQFKPDIRCQGS-------   6532
+                     ..::           |||||.   ||||||||||||||| |||       
+Rosalind_5746   6518 IYKI-----------WWVMEFVQNFGRVTLRWQFKPDIR-QGSDNLSIFR   6555
+
+Rosalind_2947   6533 -KSTEMWQWQEFPTNTACQLNPHCFNQYIMISHGKDWSMYPIEICGMLID   6581
+                      .||||||||||.||| |:|||||.||||||||||||||.|||||||  .
+Rosalind_5746   6556 ANSTEMWQWQEFNTNT-CELNPHCVNQYIMISHGKDWSMCPIEICGM--G   6602
+
+Rosalind_2947   6582 GVRNS--------RQFWCVPMKPYT-----DCLQYATCAQGLERKPFFAI   6618
+                     |...|        ||.||.|||||.     ||||||||||||||||||||
+Rosalind_5746   6603 GQMRSPPEYSCTLRQAWCNPMKPYFRKPFYDCLQYATCAQGLERKPFFAI   6652
+
+Rosalind_2947   6619 CQKHRAHDDWVPYAAQLRRRTAAMHVRFLRNHGTER--LKGGRDGWRFTM   6666
+                     |...   ||||||||| |||||.||||||||||||:  ||..........
+Rosalind_5746   6653 CLMK---DDWVPYAAQ-RRRTAPMHVRFLRNHGTEKSKLKNCHKVEYHDA   6698
+
+Rosalind_2947   6667 AGVGRSYSV------CMMWHQ---FPVVHVIECRPYPFFDREIVQDM---   6704
+                     ..||||||.      .|||||   .|||||||||||||||.||||..   
+Rosalind_5746   6699 TPVGRSYSKKSFDLPSMMWHQGSHIPVVHVIECRPYPFFDEEIVQTKGLT   6748
+
+Rosalind_2947   6705 -NWHICDVVCY----VEIWAKNQMPHHGLQAFYMLPDTFWSWLMKVPWNA   6749
+                      ||||||||..    |.|||| ||.||||||||||||||||.||||||.|
+Rosalind_5746   6749 WNWHICDVVMMNWFIVWIWAK-QMLHHGLQAFYMLPDTFWSHLMKVPWEA   6797
+
+Rosalind_2947   6750 KDGPGKTPILSSKHWRMDQAEPLADSNMSHMSAKYTCPPDNCTELRMRKQ   6799
+                     |. ||||||:||||...:       |.|..|| .|..  |||||||||||
+Rosalind_5746   6798 KL-PGKTPIISSKHHDFE-------SRMDQMS-DYVY--DNCTELRMRKQ   6836
+
+Rosalind_2947   6800 PYYEPPNTWGQREDDTLSKIWFSTYKSFMYRVRKREEGRLLITIWY----   6845
+                     |||||||||||||.||    ||..:.| |:....|.  ||.|.|||    
+Rosalind_5746   6837 PYYEPPNTWGQRETDT----WFPMHPS-MFSAENRV--RLSIRIWYMQFI   6879
+
+Rosalind_2947   6846 ----DAYFFACQKMASYFRILM--WKGDPLLGYRESTDLFSAGHWFPTKL   6889
+                         ||||.||||||||.||||  :....||||.||||||||||||||||
+Rosalind_5746   6880 GTRMDAYFEACQKMASYGRILMDEFHKMDLLGYAESTDLFSAGHWFPTKL   6929
+
+Rosalind_2947   6890 GRYPAYPWNDRNGEDTQKNSHLNLWDLEW-------VVSLIYP-------   6925
+                     ||.||||||||||||      ||.|:.:|       ..|.|||       
+Rosalind_5746   6930 GRRPAYPWNDRNGED------LNCWESDWEWWWMTYCWSAIYPFGHFFNN   6973
+
+Rosalind_2947   6926 EVRQNCERYIKHGDRIGWEVMTRRLVNSFYYFVVTHQQNWNFISMRLNRQ   6975
+                     .||||.||         ||||||||||||||.||||||||||||||||||
+Rosalind_5746   6974 RVRQNEER---------WEVMTRRLVNSFYYSVVTHQQNWNFISMRLNRQ   7014
+
+Rosalind_2947   6976 LTDAWNVNIQQYVKTRMWVTDRDPRYSAS--------GYCTQPMIECTSK   7017
+                     ||||||||    |||||...|||||||.|        .||||||   ..|
+Rosalind_5746   7015 LTDAWNVN----VKTRMINWDRDPRYSFSFVNKRMIGPYCTQPM---PYK   7057
+
+Rosalind_2947   7018 SDIYKCTDSRMDWMQCDCQVKIPGKHIHPWSEFAFFYCPDLAQYYLKMK-   7066
+                     ||   ||||||..|||||||  ||||.|||        |||||.|||.: 
+Rosalind_5746   7058 SD---CTDSRMGSMQCDCQV--PGKHAHPW--------PDLAQRYLKHEM   7094
+
+Rosalind_2947   7067 ----ARRHFFSHYGDD---------GGIPQHSNNGQVKQDSWGTVNHHYV   7103
+                         ||||||||.|||         |..||.|||||||.||||       
+Rosalind_5746   7095 MSDAARRHFFSHAGDDLDRELGRYDGEGPQPSNNGQVKNDSWG-------   7137
+
+Rosalind_2947   7104 CNPSHKLTSQDKVGEAKRPECYDDQFHCCSYFQQIEMCVLAVFNAYMYDH   7153
+                     ||||||||||||||||||||||||||||   ||      ||||| |||||
+Rosalind_5746   7138 CNPSHKLTSQDKVGEAKRPECYDDQFHC---FQ------LAVFN-YMYDH   7177
+
+Rosalind_2947   7154 EEEFEWTVTYYGYRCKFPFPQESG--HQVRIGV--AEITVTADCPTHRDD   7199
+                     |||||||||||  ||||.|||||.  |.||||:  |||.|        ||
+Rosalind_5746   7178 EEEFEWTVTYY--RCKFMFPQESFNVHLVRIGISLAEINV--------DD   7217
+
+Rosalind_2947   7200 KQCVMSGDWMLIQMGE---RNFYQSGFMRQE------NQKVD----RFK-   7235
+                     |.|.|||:|||||..|   ||||:||||:..      ||.||    :|. 
+Rosalind_5746   7218 KWCKMSGEWMLIQQCEMLMRNFYRSGFMKTTFFREAINQAVDIKVVQFSE   7267
+
+Rosalind_2947   7236 -LYHA------KRSQVDHICLIEASDDVQLRSGWYYGGCYYSLSPCFHAD   7278
+                      ||||      .||||||||||||||||||||||||||.|||.......|
+Rosalind_5746   7268 GLYHAVLFFNRMRSQVDHICLIEASDDVQLRSGWYYGGSYYSGMMNMLED   7317
+
+Rosalind_2947   7279 ---EGTLPKMSVKATLWLASPWHFAPP---WSCWAKRKYAWWGWHNYHAQ   7322
+                        ||||||.|.||||||||||||||.   .||:..:: ...||||||||
+Rosalind_5746   7318 YQAEGTLPKPSPKATLWLASPWHFAPEKIDGSCYVAKR-GKEGWHNYHAQ   7366
+
+Rosalind_2947   7323 HLDSAGLKCVYVC---------CWPGLFQHTNCTSPVECAMHKHKEEYIK   7363
+                     |||||.|||||.|         .|||||||||    :|.:.||. |.:||
+Rosalind_5746   7367 HLDSAELKCVYQCKIMYFPPHRSWPGLFQHTN----METSKHKI-EHWIK   7411
+
+Rosalind_2947   7364 CRQQSNVNMRLFIGKANKWTENGVSIYYMCD---WT------WDVNIAMG   7404
+                     |||||||||||||||||||||.||.||||||   |.      ||||||||
+Rosalind_5746   7412 CRQQSNVNMRLFIGKANKWTEYGVWIYYMCDLQLWNVTFGTKWDVNIAMG   7461
+
+Rosalind_2947   7405 YHVIIHDVLGC--------WVTEEIDYPETM------VNCCNYYSARMH-   7439
+                     ..|.|.||||.        ||.|||||.|.|      |||||||||||: 
+Rosalind_5746   7462 ATVGIDDVLGLSQHKYWVGWVQEEIDYEEMMYCGFIMVNCCNYYSARMNF   7511
+
+Rosalind_2947   7440 -WVVQLVRTSIPDKHFSIIDLFS----------FRPPNHNHIGYTWTFFP   7478
+                      |||||||||||||||||....|          :|.||||||||||||.|
+Rosalind_5746   7512 LWVVQLVRTSIPDKHFSIGKRHSRQWVQCNPMPWRYPNHNHIGYTWTFIP   7561
+
+Rosalind_2947   7479 QP-------YRYEHNSGT-------YGCFDPWW---EDLVCGQQKMGFRC   7511
+                     |.       :|||||||:       ||||||||   .....|||||||||
+Rosalind_5746   7562 QNNTTQRMNHRYEHNSGSGRTAGIPYGCFDPWWWAARPFPTGQQKMGFRC   7611
+
+Rosalind_2947   7512 RPYGCRRY-----LKVFARPFEQVLRRHEHDKPSVVCYSPP---AKVELI   7553
+                     ||||||||     :||||....|..     |||||||||||   .|||||
+Rosalind_5746   7612 RPYGCRRYAQELKIKVFAYTECQYC-----DKPSVVCYSPPHYLPKVELI   7656
+
+Rosalind_2947   7554 QKPDHRDCGTAYDQCYEDTSFLYPGYKMGPDRWMLDKHMCLKMTVWGPGV   7603
+                     |||| ||  |.||||||||||.||         |..||||||:|||||||
+Rosalind_5746   7657 QKPD-RD--TCYDQCYEDTSFRYP---------MAGKHMCLKVTVWGPGV   7694
+
+Rosalind_2947   7604 MMRNNHDDTKRTILFN----QIWPAYLRKTCQDQLYRQKTRFHTKMNHDF   7649
+                     |.||||| .::||||.    ||.||||||||||||||||| ||||||:|.
+Rosalind_5746   7695 MPRNNHD-CEKTILFKAHCVQIQPAYLRKTCQDQLYRQKT-FHTKMNNDI   7742
+
+Rosalind_2947   7650 HFTWH----NRPKIDPHRHSNSSYARTQSHDHKSRINYNQLQSTPRPRED   7695
+                     ||||.    ||||||||.|            |||||   ||::...|...
+Rosalind_5746   7743 HFTWMFRCGNRPKIDPHWH------------HKSRI---QLRTHSNPSNC   7777
+
+Rosalind_2947   7696 INPARQTQTTMVYGW--------TKPTFCWYTWATGGNI-W----YLENA   7732
+                     ...|||||||||||.        :|||||:||||||||| |    |||||
+Rosalind_5746   7778 YWSARQTQTTMVYGPCSECGEAPSKPTFCFYTWATGGNIQWLRANYLENA   7827
+
+Rosalind_2947   7733 AMSH--HFQFC-QVP------------GGRPHPRPWPSPPMFNLCANVHQ   7767
+                     |||.  ||||| ||.            .|..:||||||||||||||||.|
+Rosalind_5746   7828 AMSGCVHFQFCWQVSMIGGCQVNPWNSAGMQNPRPWPSPPMFNLCANVAQ   7877
+
+Rosalind_2947   7768 AYGHCMEMISNGIPPCLTEKSASKMVQFNYTM---WCQAEQPQTWIYRCE   7814
+                     ..        |||| .|||.:..    ||:..   |||||||.    |||
+Rosalind_5746   7878 PM--------NGIP-YLTEDAGV----FNWYYCWKWCQAEQPS----RCE   7910
+
+Rosalind_2947   7815 NQEQ---QQDHSHNHYPMMVQPQINFDLDECNGC-------TLLKSWDDK   7854
+                     .||:   |.|||   |||||         |||||       .||||||  
+Rosalind_5746   7911 WQEKVSTQLDHS---YPMMV---------ECNGCFNPKCFIPLLKSWD--   7946
+
+Rosalind_2947   7855 NCMQCTSIICSFLSTNDSAIWNKTSCKYRDMLDQACLEHAEGWHHRDVR-   7903
+                          |||||||||||||||||.||||| |||||||.|||||||||... 
+Rosalind_5746   7947 -----TSIICSFLSTNDSAIWNATSCKY-DMLDQACREHAEGWHHRSKLN   7990
+
+Rosalind_2947   7904 -YHDIDSICYIQR--------LIEKRMWEHNE-------QRAHKQQHQGP   7937
+                      ||||.|||:...        ||||||||||.       |||||||||||
+Rosalind_5746   7991 VYHDIVSICHCSEQYQQLYDELIEKRMWEHNHCHYSALLQRAHKQQHQGP   8040
+
+Rosalind_2947   7938 LDVHFYRHQCHLQGWIWSGECTIIKYALCDQMHGQLYQMWQCGLLVRVQQ   7987
+                     ||:||  |||.||.|          ||||||.|.||||||||||||||.|
+Rosalind_5746   8041 LDIHF--HQCFLQIW----------YALCDQKHHQLYQMWQCGLLVRVVQ   8078
+
+Rosalind_2947   7988 VYTTNDM---RTFFKDHAH-----VMFCSYYEKKWKKIMHLRFFFQIPIL   8029
+                     ||.:...   ||||||||:     |||||..||||.|||||||||||||.
+Rosalind_5746   8079 VYGSPHRMIRRTFFKDHAYMAFFEVMFCSQPEKKWTKIMHLRFFFQIPIT   8128
+
+Rosalind_2947   8030 ICEMCPPAVDWAMVHDFKPENNMMVFNYDHKQIFICPRKKAPKIDESGCL   8079
+                     ||||||...:.|.... ..||||||||||||||::  .:....|||||||
+Rosalind_5746   8129 ICEMCPTPTNPASKKQ-SWENNMMVFNYDHKQIWV--PEIQHYIDESGCL   8175
+
+Rosalind_2947   8080 FLIGRAKQQR----FDPLQ--------YEWPHPYIEMGEGQSMKWTSMEF   8117
+                     |||||||.|.    ||||:        ||||||||       :.|.    
+Rosalind_5746   8176 FLIGRAKIQGQQIIFDPLKPVIHTHGAYEWPHPYI-------LCWC----   8214
+
+Rosalind_2947   8118 TWGEVEIYYQSCASFKGNTNLFN----GWAVHDIMTYTQQCYGQSQA---   8160
+                     |.||:||||.|     |.||||.    |||..|.||..|:||||||.   
+Rosalind_5746   8215 TTGEIEIYYAS-----GRTNLFYDQWIGWAKQDDMTTVQECYGQSQYIGK   8259
+
+Rosalind_2947   8161 -----TCAKM------HY-LEICCDLYVCTVTWESWEADLYWSDFNIQAP   8198
+                          |||.:      || .||  |||||||||:||       |||||||
+Rosalind_5746   8260 WSRNFTCAAIYTKGNWHYWTEI--DLYVCTVTWKSW-------DFNIQAP   8300
+
+Rosalind_2947   8199 RT----IAEGTMTNGTGK----YHWKLMRD----SGAPSQNSNRMVRRKT   8236
+                     ..    .|||||||.||:    |||||||.    |||||||||||||.||
+Rosalind_5746   8301 HPPRHLFAEGTMTNMTGQVDDHYHWKLMRGYMWRSGAPSQNSNRMVRNKT   8350
+
+Rosalind_2947   8237 SHWP-LHRYFRKFKEAVDFGGTPKWIPIEHIRNLWPDCHWCKHHTHGGAG   8285
+                     |||| |||||||.|||  ||||.|||.:.|            ..||.|||
+Rosalind_5746   8351 SHWPSLHRYFRKIKEA--FGGTKKWIFMGH------------SSTHKGAG   8386
+
+Rosalind_2947   8286 GYRFEDNACQVGRREEGSIQEDC-QTWTKVKREDGFEVFNCHACHLSVEH   8334
+                     |||||||..|       |||||| .||||||||||||||||||.||||||
+Rosalind_5746   8387 GYRFEDNDGQ-------SIQEDCGMTWTKVKREDGFEVFNCHAYHLSVEH   8429
+
+Rosalind_2947   8335 IPVKIELIR--------NWHGWATMVNT-----TNAARVW---NYFYHRM   8368
+                     ||||||||.        |||.|||||:.     .|||.|:   |||||||
+Rosalind_5746   8430 IPVKIELISLYWFYPEVNWHLWATMVHLHPSVGDNAAYVFTRQNYFYHRM   8479
+
+Rosalind_2947   8369 ASGTIIMD-----IGFSIMTCGRVTNFVGLPSFWDEMTKAEAVAHAPDGL   8413
+                     |||||||.     |.|||||.|     ||||.|||||||||.|||.|..|
+Rosalind_5746   8480 ASGTIIMSSVKMPIMFSIMTFG-----VGLPMFWDEMTKAEHVAHGPMFL   8524
+
+Rosalind_2947   8414 QGDICGKEFEIPMHFYLCTVIERNIFQGMRMWDMHAVNDLTV--------   8455
+                     ..:..|.: ||||||||||||||||.|||||||||||||||.        
+Rosalind_5746   8525 DQEPDGLQ-EIPMHFYLCTVIERNIDQGMRMWDMHAVNDLTCNWHFSFVN   8573
+
+Rosalind_2947   8456 IGNGFNDRECCCCDKFCVEDVEYEMLMWHGKFCGRWCYQMRG--------   8497
+                     |||||||.||....|:. |||     .||||||..||||||.        
+Rosalind_5746   8574 IGNGFNDTECNVQRKWS-EDV-----YWHGKFCTAWCYQMRCVRQQQSCV   8617
+
+Rosalind_2947   8498 HNICHKAQGHQALHQSWIAWHFCNLQRNTICYDGEIRRRFTLKCTNNHCD   8547
+                     .|||:|| ||..:...|:...|||||.||||        ||||||||.||
+Rosalind_5746   8618 MNICNKA-GHAVMQGHWMLHQFCNLQINTIC--------FTLKCTNNWCD   8658
+
+Rosalind_2947   8548 -----PVGSQSMPAIDNADDGVTRATLLYTGWNWAWVFWEANEKGFCVFL   8592
+                          ...::||||||||||.||   :|:...|.|||.|||.......||
+Rosalind_5746   8659 FKCVLDFTNKSMPAIDNADDMVT---VLWWNLNQAWVAWEACTPSTRHFL   8705
+
+Rosalind_2947   8593 EWSQGYDDWMFCADKCLEVMANYWKLHKNLNFRMLHGMKAHIGNVTTFQC   8642
+                     |||||||||||||..||||||||||||||.:||.        ||:||.||
+Rosalind_5746   8706 EWSQGYDDWMFCAFWCLEVMANYWKLHKNWHFRA--------GNMTTGQC   8747
+
+Rosalind_2947   8643 -------YPHNYQDVHPQWGDEDMSKACMMFTIRFADNQLCCSTF-WESQ   8684
+                            :||||||             |||||||||||||||||| |...
+Rosalind_5746   8748 PAHFKETHPHNYQD-------------CMMFTIRFADNQLCCSTFLWLFS   8784
+
+Rosalind_2947   8685 FHYGCFAHAIKSKPCTRKVYKVFCLYPMWNTLKHPEVDRQNGVRMSLWPV   8734
+                     |     |||||||||||||||||.|||.||||||||||||||||||||||
+Rosalind_5746   8785 F-----AHAIKSKPCTRKVYKVFVLYPTWNTLKHPEVDRQNGVRMSLWPV   8829
+
+Rosalind_2947   8735 ENGIALNSPALMKESETHECSFWDMAVSVPQCD   8767
+                     ||||||..|||||||||||||||||||||||||
+Rosalind_5746   8830 ENGIALTCPALMKESETHECSFWDMAVSVPQCD   8862
+
+
+#---------------------------------------
+#---------------------------------------
